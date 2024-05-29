@@ -1,0 +1,32 @@
+<!-- <h1>{{ project.name }}</h1>
+<ul>
+    <li>Mô tả: {{ project.description }}</li>
+    <li>Giá: {{ project.price }}</li>
+    <li>Hình ảnh: <img src="{{project.image}}" alt=""> </li>
+</ul> -->
+
+<div class="card" style="width: 18rem;">
+    <img src="{{project.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{project.name}}</h5>
+      <p class="card-text">{{ project.description }}</p>
+      <p class="card-text">Price: {{ project.price }}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <!-- <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{project.image}}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{project.name}}</h5>
+          <p class="card-text">{{ project.description }}</p>
+          <p class="card-text">{{ project.price }}</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div> -->
